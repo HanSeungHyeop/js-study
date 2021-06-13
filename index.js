@@ -10,8 +10,8 @@ const captainAmerica = {
     alias: '캡틴 아메리카'
 };
 
-function print(hero) {
-    const text = `${hero.alias}(${hero.name}) 역할을 맡은 배우는 ${hero.actor} 입니다.`;
+function print({ alias, name, actor }) {
+    const text = `${alias}(${name}) 역할을 맡은 배우는 ${actor} 입니다.`;
     console.log(text);
 }
 
